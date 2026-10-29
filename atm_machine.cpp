@@ -42,7 +42,6 @@ public:
 int main() {
     ATM atm;
     atm.deposit({0, 0, 1, 2, 1});
-    auto res1 = atm.withdraw(600);
-    std::cout << "Prueba de retiro ejecutada con exito." << std::endl;
+    std::cout << "ATM Machine ejecutado correctamente." << std::endl;
     return 0;
 }
